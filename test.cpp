@@ -3,7 +3,8 @@
 #include <iostream>
 #include <memory>
 #include "array.hpp"
-#include "ptrs.cpp"
+#include "unique.hpp"
+#include "shared.hpp"
 
 using Clock = std::chrono::high_resolution_clock;
 using Ms = std::chrono::duration<double, std::milli>;

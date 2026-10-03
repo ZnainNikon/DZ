@@ -880,4 +880,5 @@ CMakeFiles/tests.dir/test.cpp.o: \
   /opt/homebrew/include/gtest/gtest_pred_impl.h \
   /opt/homebrew/include/gtest/gtest_prod.h \
   /Users/polzovatel/Desktop/DZ/array.hpp \
-  /Users/polzovatel/Desktop/DZ/ptrs.cpp
+  /Users/polzovatel/Desktop/DZ/unique.hpp \
+  /Users/polzovatel/Desktop/DZ/shared.hpp

@@ -10,7 +10,7 @@ class SharedPtr
     std::size_t* referenceCount;
     void ReleaseRef() noexcept
     {
-        if (referenceCount && --(*referenceCount) == 0)
+        if (referenceCount && --(*referenceCount) == 0)   // ← проверка!
         {
             delete data;
             delete referenceCount;
