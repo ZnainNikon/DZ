@@ -1,0 +1,16 @@
+cmake_minimum_required(VERSION 3.16)
+project(benchmark CXX)
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
+
+add_compile_options(-fsanitize=address,undefined -fno-omit-frame-pointer -g)
+add_link_options(-fsanitize=address,undefined)
+
+add_executable(benchmark main.cpp)
+
+enable_testing()
+find_package(GTest REQUIRED)
+add_executable(tests test.cpp)
+target_link_libraries(tests GTest::gtest GTest::gtest_main)
+add_test(NAME tests COMMAND tests)

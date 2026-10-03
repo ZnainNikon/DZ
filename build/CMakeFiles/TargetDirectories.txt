@@ -1,0 +1,5 @@
+/Users/polzovatel/Desktop/DZ/build/CMakeFiles/benchmark.dir
+/Users/polzovatel/Desktop/DZ/build/CMakeFiles/tests.dir
+/Users/polzovatel/Desktop/DZ/build/CMakeFiles/test.dir
+/Users/polzovatel/Desktop/DZ/build/CMakeFiles/edit_cache.dir
+/Users/polzovatel/Desktop/DZ/build/CMakeFiles/rebuild_cache.dir
